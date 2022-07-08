@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const { User, Bills, Accounts, Debt, Cards } = require("../Models/index");
-const user = require("../Models/user");
-const withAuth = require("../Utilities/auth");
+const { User, Bills, Accounts, Debt, Cards } = require("../models/index");
+const user = require("../models/user");
+const withAuth = require("../utils/auth");
 
 router.get("/", async(req, res) => {
     console.log(req.session.user_id);

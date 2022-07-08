@@ -87,3 +87,19 @@ module.exports = {
     leftOverCalculation,
     updateCheckingCalculation,
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// PAY ATTENTION TO CAPITALIZATION 

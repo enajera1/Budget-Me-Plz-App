@@ -1,6 +1,6 @@
-const User = require("./user");
-const Bills = require("./bills");
-const sequelize = require("../Config/connection");
+const User = require("./User");
+const Bills = require("./Bills");
+const sequelize = require("../config/connection");
 
 User.hasMany(Bills, {
     foreignkey: "user_id",
