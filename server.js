@@ -37,7 +37,7 @@ const sess = {
     db: sequelize,
   })
 };
-//notes
+//notess
 const helpers = require("./utils/helpers");
 
 app.use(session(sess));
